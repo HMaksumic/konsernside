@@ -9,7 +9,6 @@ const Header = () => {
       <nav>
         <ul>
           <li><Link to="/">Hjem</Link></li>
-          <li><Link to="/about">Om oss</Link></li>
           <li><Link to="/tjenester">Tjenester</Link></li>
           <li><Link to="/kontakt">Kontakt</Link></li>
         </ul>

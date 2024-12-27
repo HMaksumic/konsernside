@@ -17,7 +17,7 @@ const Home = () => {
       <main>
         <section className="info-box">
           <h3>Hvem er vi?</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus volutpat tincidunt. Sed venenatis sagittis suscipit. Donec lorem ante, sodales in efficitur dictum, dapibus id turpis. Aenean fringilla mollis imperdiet. Praesent pharetra arcu massa, at sollicitudin nibh ornare sit amet. Curabitur ac diam vitae dolor ultricies dictum a eget est. Proin ac sapien ac odio porttitor tristique. Praesent luctus, urna quis sodales consectetur, arcu tortor sagittis massa, vel sagittis nibh mi non nisi. Nam cursus sem nisi, eu condimentum turpis vulputate ut. Sed diam dui, mattis id finibus non, lacinia quis purus. Fusce lectus magna, pretium ut viverra id, porta eget tellus. Vivamus faucibus ultrices orci vitae egestas. Fusce ultrices quam nec lacinia bibendum. Nunc suscipit enim ac egestas tempus</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus volutpat tincidunt. Sed venenatis sagittis suscipit. Donec lorem ante, sodales in efficitur dictum, dapibus id turpis. Aenean fringilla mollis imperdiet. Praesent pharetra arcu massa, at sollicitudin nibh ornare sit amet. Curabitur ac diam vitae dolor ultricies dictum a eget est. Proin ac sapien ac odio porttitor tristique. Praesent luctus, urna quis sodales consectetur, arcu tortor sagittis massa, vel sagittis nibh mi non nisi. Nam cursus sem nisi, eu condimentum turpis vulputate ut. Sed diam dui, mattis id finibus non, lacinia quis purus. Fusce lectus magna, pretium ut viverra id, porta</p>
         </section>
         <section className="companies-container">
           <h3>Våre selskaper</h3>
