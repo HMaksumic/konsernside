@@ -21,48 +21,36 @@ const Home = () => {
         </section>
         <section className="companies-container">
           <h3>Våre selskaper</h3>
-          <div className="company">
-            <a href="https://www.aakebergskoglunn.no/">
-              <img src={Åkeberg} alt="Company 1 Logo" className="company-logo" />
-              <div className="company-name">Åkeberg Skoglunn Pølsemakeri AS</div>
-            </a>
+          <a href="https://www.aakebergskoglunn.no/" className="company">
+            <img src={Åkeberg} alt="Company 1 Logo" className="company-logo" />
+            <div className="company-name">Åkeberg Skoglunn Pølsemakeri AS</div>
             <div className="company-info">Duis at leo consectetur, sollicitudin ante vitae, rhoncus odio. Duis aliquet tempus leo ut volutpat. Nullam accumsan risus nec eros sagittis feugiat. Aliquam lacus lorem, interdum at metus eu, aliquet finibus arcu. Curabitur tortor lorem, rutrum a bibendum et, semper a quam. Ut lobortis ligula ipsum,</div>
-          </div>
-          <div className="company">
-            <a href="https://spiceofnorway.no/">
-              <img src={Spice} alt="Company 2 Logo" className="company-logo" />
-              <div className="company-name">Spice of Norway</div>
-            </a>
+          </a>
+          <a href="https://spiceofnorway.no/" className="company">
+            <img src={Spice} alt="Company 2 Logo" className="company-logo" />
+            <div className="company-name">Spice of Norway</div>
             <div className="company-info">iam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus massa, porta at scelerisque id, tempor eu quam. Fusce pharetra, orci ac ultrices consectetur, arcu tellus aliquam velit, vel iaculis justo neque sed felis. Sed pellentesque justo et libero fringilla, sit amet sagittis</div>
-          </div>
-          <div className="company">
-            <a href="https://oivindkarlsen.no/">
-              <img src={Karlsen} alt="Company 3 Logo" className="company-logo" />
-              <div className="company-name">Øyvind Karlsen Manstad Kjøtt AS</div>
-            </a>
+          </a>
+          <a href="https://oivindkarlsen.no/" className="company">
+            <img src={Karlsen} alt="Company 3 Logo" className="company-logo" />
+            <div className="company-name">Øyvind Karlsen Manstad Kjøtt AS</div>
             <div className="company-info">us, suscipit at magna vel, dictum eleifend est. Aenean metus orci, euismod ac lectus quis, malesuada semper mauris. Curabitur cursus bibendum massa, sit amet aliquet leo convallis eu. Proin eu justo quis lorem feugiat posuere. Integer ullamcorper ex semper dui pulvinar tristique. Pellentesque neque dui, aliquam ac egestas nec, viverra eu orci. Cras maximus arcu ornare quam mattis lacinia</div>
-          </div>
-          <div className="company">
-            <a href="https://engfugl.no/">
-              <img src={Engfugl} alt="Company 3 Logo" className="company-logo" />
-              <div className="company-name">Eng Fugl</div>
-            </a>
+          </a>
+          <a href="https://engfugl.no/" className="company">
+            <img src={Engfugl} alt="Company 3 Logo" className="company-logo" />
+            <div className="company-name">Eng Fugl</div>
             <div className="company-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus massa, porta at scelerisque id, tempor eu quam. Fusce pharetra, orci ac ultrices consectetur, arcu tellus aliquam velit, vel iaculis justo neque sed felis. Sed pellentesque justo et libero fringilla, sit amet sagittis leo tempor.</div>
-          </div>
-          <div className="company">
-            <a href="/NA">
-              <img src={Halalprod} alt="Company 3 Logo" className="company-logo" />
-              <div className="company-name">Halalprodusenten</div>
-            </a>
+          </a>
+          <a href="/NA" className="company">
+            <img src={Halalprod} alt="Company 3 Logo" className="company-logo" />
+            <div className="company-name">Halalprodusenten</div>
             <div className="company-info"> dictum ipsum, nec lobortis mauris volutpat eu. Donec ultrices lacinia leo, eget semper urna ullamcorper vel. Vivamus tempor a purus vel gravida. Morbi ornare, dolor vitae fermentum dapibus, mauris tellus mattis mauris, sed placerat urna magna a dui. In et velit justo. Donec id accumsan tel</div>
-          </div>
-          <div className="company">
-            <a href="/NA">
-              <img src={Edelgaard} alt="Company 3 Logo" className="company-logo" />
-              <div className="company-name">Edelgård</div>
-            </a>
+          </a>
+          <a href="/NA" className="company">
+            <img src={Edelgaard} alt="Company 3 Logo" className="company-logo" />
+            <div className="company-name">Edelgård</div>
             <div className="company-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus massa, porta at scelerisque id, tempor eu quam. Fusce pharetra, orci ac ultrices consectetur, arcu tellus aliquam velit, vel iaculis justo neque sed felis. Sed pellentesque justo et libero fringilla, sit amet sagittis leo tempor.</div>
-          </div>
+          </a>
         </section>
       </main>
       <Footer />

@@ -5,7 +5,7 @@ import './Header.css';
 const Header = () => {
   return (
     <header>
-      <h1>Åkeberg Skoglunn Holding AS</h1>
+      <h1>Åkeberg Skoglunn Holding</h1>
       <nav>
         <ul>
           <li><Link to="/">Hjem</Link></li>
