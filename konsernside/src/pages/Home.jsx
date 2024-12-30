@@ -10,49 +10,96 @@ import Karlsen from '../assets/Karlsen.png';
 import Engfugl from '../assets/engfugl.png';
 import Edelgaard from '../assets/edelgaard.png';
 
+import EdelgaardBilde from '../assets/edelgaardbilde.jpg';
+import EngfuglBilde from '../assets/engfuglbilde.webp';
+import HalalBilde from '../assets/halalbilde.jpg';
+import KarlsenBilde from '../assets/karlsenbilde.webp';
+import SpiceBilde from '../assets/spiceofnorwaybilde.jpg';
+import PolsemakeriBilde from '../assets/roger-og-poelser.jpg';
+
+import AboutBilde1 from '../assets/aboutbilde1.webp';
+import AboutBilde2 from '../assets/aboutbilde2.jpg';
+import AboutBilde3 from '../assets/aboutbilde3.jpg';
+
 const Home = () => {
   return (
     <div className="app-container">
       <Header />
-      <main>
-        <section className="info-box">
-          <h3>Hvem er vi?</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus volutpat tincidunt. Sed venenatis sagittis suscipit. Donec lorem ante, sodales in efficitur dictum, dapibus id turpis. Aenean fringilla mollis imperdiet. Praesent pharetra arcu massa, at sollicitudin nibh ornare sit amet. Curabitur ac diam vitae dolor ultricies dictum a eget est. Proin ac sapien ac odio porttitor tristique. Praesent luctus, urna quis sodales consectetur, arcu tortor sagittis massa, vel sagittis nibh mi non nisi. Nam cursus sem nisi, eu condimentum turpis vulputate ut. Sed diam dui, mattis id finibus non, lacinia quis purus. Fusce lectus magna, pretium ut viverra id, porta</p>
+      <section className="hero">
+        <div className="hero-content">
+          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+          <p>Sed dapibus volutpat tincidunt. Sed venenatis sagittis suscipit. Donec lorem ante</p>
+        </div>
+      </section>
+      <div className="container">
+        <section className="about-section">
+          <img src={AboutBilde1} alt="About Us" className="about-image" />
+          <div className="about-text">
+            <h2>Sed venenatis sagittis suscipit.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus volutpat tincidunt. Sed venenatis sagittis suscipit. Donec lorem ante, sodales in efficitur dictum, dapibus id turpis. Aenean fringilla mollis imperdiet. Praesent pharetra arcu massa, at sollicitudin nibh ornare sit amet.</p>
+            <button className="read-more">Les mer</button>
+          </div>
         </section>
-        <section className="companies-container">
-          <h3>Våre selskaper</h3>
-          <a href="https://www.aakebergskoglunn.no/" className="company">
-            <img src={Åkeberg} alt="Company 1 Logo" className="company-logo" />
-            <div className="company-name">Åkeberg Skoglunn Pølsemakeri AS</div>
-            <div className="company-info">Duis at leo consectetur, sollicitudin ante vitae, rhoncus odio. Duis aliquet tempus leo ut volutpat. Nullam accumsan risus nec eros sagittis feugiat. Aliquam lacus lorem, interdum at metus eu, aliquet finibus arcu. Curabitur tortor lorem, rutrum a bibendum et, semper a quam. Ut lobortis ligula ipsum,</div>
-          </a>
-          <a href="https://spiceofnorway.no/" className="company">
-            <img src={Spice} alt="Company 2 Logo" className="company-logo" />
-            <div className="company-name">Spice of Norway</div>
-            <div className="company-info">iam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus massa, porta at scelerisque id, tempor eu quam. Fusce pharetra, orci ac ultrices consectetur, arcu tellus aliquam velit, vel iaculis justo neque sed felis. Sed pellentesque justo et libero fringilla, sit amet sagittis</div>
-          </a>
-          <a href="https://oivindkarlsen.no/" className="company">
-            <img src={Karlsen} alt="Company 3 Logo" className="company-logo" />
-            <div className="company-name">Øyvind Karlsen Manstad Kjøtt AS</div>
-            <div className="company-info">us, suscipit at magna vel, dictum eleifend est. Aenean metus orci, euismod ac lectus quis, malesuada semper mauris. Curabitur cursus bibendum massa, sit amet aliquet leo convallis eu. Proin eu justo quis lorem feugiat posuere. Integer ullamcorper ex semper dui pulvinar tristique. Pellentesque neque dui, aliquam ac egestas nec, viverra eu orci. Cras maximus arcu ornare quam mattis lacinia</div>
-          </a>
-          <a href="https://engfugl.no/" className="company">
-            <img src={Engfugl} alt="Company 3 Logo" className="company-logo" />
-            <div className="company-name">Eng Fugl</div>
-            <div className="company-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus massa, porta at scelerisque id, tempor eu quam. Fusce pharetra, orci ac ultrices consectetur, arcu tellus aliquam velit, vel iaculis justo neque sed felis. Sed pellentesque justo et libero fringilla, sit amet sagittis leo tempor.</div>
-          </a>
-          <a href="/NA" className="company">
-            <img src={Halalprod} alt="Company 3 Logo" className="company-logo" />
-            <div className="company-name">Halalprodusenten</div>
-            <div className="company-info"> dictum ipsum, nec lobortis mauris volutpat eu. Donec ultrices lacinia leo, eget semper urna ullamcorper vel. Vivamus tempor a purus vel gravida. Morbi ornare, dolor vitae fermentum dapibus, mauris tellus mattis mauris, sed placerat urna magna a dui. In et velit justo. Donec id accumsan tel</div>
-          </a>
-          <a href="/NA" className="company">
-            <img src={Edelgaard} alt="Company 3 Logo" className="company-logo" />
-            <div className="company-name">Edelgård</div>
-            <div className="company-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus massa, porta at scelerisque id, tempor eu quam. Fusce pharetra, orci ac ultrices consectetur, arcu tellus aliquam velit, vel iaculis justo neque sed felis. Sed pellentesque justo et libero fringilla, sit amet sagittis leo tempor.</div>
-          </a>
+        <section className="about-section reverse">
+          <div className="about-text">
+            <h2>Sed venenatis sagittis suscipit.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus volutpat tincidunt. Sed venenatis sagittis suscipit. Donec lorem ante, sodales in efficitur dictum, dapibus id turpis. Aenean fringilla mollis imperdiet. Praesent pharetra arcu massa, at sollicitudin nibh ornare sit amet.</p>
+            <button className="read-more reverse">Les mer</button>
+          </div>
+          <img src={AboutBilde2} alt="Our Mission" className="about-image" />
         </section>
-      </main>
+        <section className="about-section">
+          <img src={AboutBilde3} alt="About Us" className="about-image" />
+          <div className="about-text">
+            <h2>Sed venenatis sagittis suscipit.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus volutpat tincidunt. Sed venenatis sagittis suscipit. Donec lorem ante, sodales in efficitur dictum, dapibus id turpis. Aenean fringilla mollis imperdiet. Praesent pharetra arcu massa, at sollicitudin nibh ornare sit amet.</p>
+            <button className="read-more">Les mer</button>
+          </div>
+        </section>
+      </div>
+
+      <section className="services"></section>
+        <section className="services">
+          <h2 className='service-title'>Våre selskaper</h2>
+          <div className="services-container">
+            <div className="service">
+              <img className="company-stock-image" src={PolsemakeriBilde} alt="Service 1" />
+              <h3>Åkeberg Skoglunn Pølsemakeri AS</h3>
+              <p>Proin ac sapien ac odio porttitor tristique. Praesent luctus, urna quis sodales consectetur, arcu tortor sagittis massa, vel sagittis nibh mi non nisi.</p>
+              <img className="company-logo" src={Åkeberg} alt="Service 1" />
+            </div>
+            <div className="service">
+              <img className="company-stock-image" src={KarlsenBilde} alt="Service 1" />
+              <h3 style={{ paddingLeft: 10, paddingRight: 10 }}>Øyving Karlsen Maanstad Kjøtt AS</h3>
+              <p>Proin ac sapien ac odio porttitor tristique. Praesent luctus, urna quis sodales consectetur, arcu tortor sagittis massa, vel sagittis nibh mi non nisi.</p>
+              <img className="company-logo" src={Karlsen} alt="Service 1" />
+            </div>
+            <div className="service">
+              <img className="company-stock-image" src={SpiceBilde} alt="Service 1" />
+              <h3>Spice of Norway AS</h3>
+              <p>Proin ac sapien ac odio porttitor tristique. Praesent luctus, urna quis sodales consectetur, arcu tortor sagittis massa, vel sagittis nibh mi non nisi.</p>
+              <img className="company-logo" src={Spice} alt="Service 1" />
+            </div>
+            <div className="service">
+              <img className="company-stock-image" src={EngfuglBilde} alt="Service 1" />
+              <h3>Eng Fugl AS</h3>
+              <p>Proin ac sapien ac odio porttitor tristique. Praesent luctus, urna quis sodales consectetur, arcu tortor sagittis massa, vel sagittis nibh mi non nisi.</p>
+              <img className="company-logo" src={Engfugl} alt="Service 1" />
+            </div>
+            <div className="service">
+              <img className="company-stock-image" src={HalalBilde} alt="Service 1" />
+              <h3>Halal Produsenten AS</h3>
+              <p>Proin ac sapien ac odio porttitor tristique. Praesent luctus, urna quis sodales consectetur, arcu tortor sagittis massa, vel sagittis nibh mi non nisi.</p>
+              <img className="company-logo" src={Halalprod} alt="Service 1" />
+            </div>
+            <div className="service">
+              <img className="company-stock-image" src={EdelgaardBilde} alt="Service 1" />
+              <h3>Edelgård AS</h3>
+              <p>Proin ac sapien ac odio porttitor tristique. Praesent luctus, urna quis sodales consectetur, arcu tortor sagittis massa, vel sagittis nibh mi non nisi.</p>
+              <img className="company-logo" src={Edelgaard} alt="Service 1" />
+            </div>
+          </div>
+        </section>
       <Footer />
     </div>
   );
